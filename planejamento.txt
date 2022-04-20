@@ -1,0 +1,20 @@
+ - Homepage
+ - Fazer login e Criar Conta (Usuário e Autenticação)
+     - Email
+     - Username
+     - Senha
+     - Filmes já assistiu
+     - Editar perfil
+
+ - Filmes / Series
+    _ thumb
+    - titulo
+    - descrição
+    - categoria
+    - qtde de views
+    - data de criação
+    - episódios
+        - videos (link do video)
+        - titulo
+
+ - Barra de pesquisa
