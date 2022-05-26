@@ -24,6 +24,8 @@ class Detalhesfilme(DetailView):
         # somar 1 nas visualizações daquele filme
         filme.visualizacoes += 1
         filme.save()
+        usuario = request.user
+        usuario.filmes_vistos.add(filme)
         return super().get(request, *args, **kwargs) # redireciona o usuario para a url final
 
     def get_context_data(self, **kwargs):
